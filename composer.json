@@ -1,0 +1,24 @@
+{
+  "name": "polus/project",
+  "description": "Base to wrok with polus",
+  "license":"MIT",
+  "authors": [
+      {
+          "name": "Andreas Sundqvist",
+          "email": "andreas@forme.se"
+      }
+  ],
+  "require": {
+    "aura/di": "2.*",
+    "polus/polus": "~3.0",
+    "sunkan/blueprint": "~1.0",
+    "monolog/monolog": "1.*",
+    "akrabat/rka-ip-address-middleware": "^0.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\_Config\\": "lib/App/config/",
+      "App\\": "lib/App/src/"
+    }
+  }
+}
