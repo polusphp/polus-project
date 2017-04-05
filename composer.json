@@ -20,5 +20,10 @@
       "App\\_Config\\": "lib/App/config/",
       "App\\": "lib/App/src/"
     }
+  },
+  "scripts": {
+    "post-create-project-cmd" : [
+      "php post-create-project.php"
+    ]
   }
 }
